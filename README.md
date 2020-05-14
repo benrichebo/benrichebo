@@ -1,4 +1,9 @@
-# benrichebo.github.io
-This is my portfolio website
+## Portfolio website
 
-benrichebo.github.io
+# Installation
+You need 
+- node.js
+- git
+- gulp
+
+Gulp was used for running several task
