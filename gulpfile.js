@@ -39,7 +39,7 @@ function css(cb) {
     .pipe(rename({suffix: '.min'}))
     .pipe(dest(`${destination}/css`));
 
-    src([`${origin}/css/style.scss`])
+    src([`${origin}/css/*.scss`])
     .pipe(sass({
         outputStyle: 'compressed'
     }))
